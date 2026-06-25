@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link class="code-asset" rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">ZS</a>
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#resume" class="nav-link">Resume</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+<!--banner section-->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>I am Zainab Shakeel</h1>
+            <div class="typing-container">
+                <span class="typing-text"></span><span class="cursor">|</span>
+            </div>
+            <!-- digital clock-->
+             <div class="digital-clock">
+                <span id="clock">00:00:00</span>
+            </div>
+            <br><br>
+            <br>
+
+            <a href="#portfolio" class="btn">View My Work</a>
+        </div>
+    </section>
+<!--contact profile-->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-left">
+                    <div class="profile-card">
+                        <div class="profile-img-placeholder">
+                            <img src="images/profile.jpg" alt="Zainab Shakeel" class="profile-img">
+                        </div>
+                        <div class="profile-info">
+                            <p><strong>Name:</strong> Zainab Shakeel</p>
+                            <p><strong>Profile:</strong> Frontend Developer</p>
+                            <p><strong>Email:</strong> zaianbshakeel@gmail.com</p>
+                            <p><strong>Phone:</strong> +3198764309</p>
+                        </div>
+                    </div>
+                    <!--skills--> 
+                    <div class="skills-card">
+                        <h3>Skills</h3>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>HTML</span> <span>100%</span></div>
+                            <div class="progress-bar"><div class="progress" data-progress="100%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>CSS</span> <span>90%</span></div>
+                            <div class="progress-bar"><div class="progress" data-progress="90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>JavaScript</span> <span>75%</span></div>
+                            <div class="progress-bar"><div class="progress" data-progress="75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>React</span> <span>70%</span></div>
+                            <div class="progress-bar"><div class="progress" data-progress="70%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>UI Design</span> <span>90%</span></div>
+                            <div class="progress-bar"><div class="progress" data-progress="80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <!--about me-->
+                <div class="about-right">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="lead-text">An elegant approach to design mixed with absolute performance engineering.</p>
+                    <p>I am a passionate software developer specializing in building premium, high-performance web applications. With a razor-sharp focus on clean architectures and clean design principles, I bridge the gap between complex engineering concepts and intuitive user interfaces.</p>
+                    <p>Over the past several years, I have collaborated with dynamic startups and established enterprises globally to orchestrate custom ecosystems, robust automation layers, and high-performance frontend designs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--resume-->
+    <section id="resume" class="resume section-padding gray-bg">
+        <div class="container">
+            <h2 class="section-title center">Resume</h2>
+            <div class="timeline-grid">
+                <div class="timeline-col">
+                    <h3 class="timeline-heading">Education</h3>
+                    <div class="timeline-item">
+                        <h4>Master of Computer Science</h4>
+                        <span class="timeline-date">2019 - 2021</span>
+                        <p class="timeline-org">Stanford University</p>
+                        <p>Specialized in Advanced Software Architectures, Human-Computer Interaction, and Data Analytics frameworks.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>Bachelor of Science in IT</h4>
+                        <span class="timeline-date">2015 - 2019</span>
+                        <p class="timeline-org">Nexus Institute of Tech</p>
+                        <p>Foundation of web engineering paradigms, data structures, algorithms, and modular object-oriented designs.</p>
+                    </div>
+                </div>
+                <div class="timeline-col">
+                    <h3 class="timeline-heading">Professional Experience</h3>
+                    <div class="timeline-item">
+                        <h4>Senior Frontend Architect</h4>
+                        <span class="timeline-date">2023 - Present</span>
+                        <p class="timeline-org">Vertex Software Labs</p>
+                        <ul>
+                            <li>Lead development of cloud orchestration dashboarding solutions reducing load overhead by 40%.</li>
+                            <li>Architect internal reusable design token system across multiple production teams.</li>
+                            <li>Mentor junior and mid-level developers on clean functional programming patterns.</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>Full Stack Web Developer</h4>
+                        <span class="timeline-date">2021 - 2023</span>
+                        <p class="timeline-org">Quantum Digital Solutions</p>
+                        <ul>
+                            <li>Implemented dynamic serverless integrations with modern asynchronous client state management frameworks.</li>
+                            <li>Optimized web apps ensuring 100/100 performance thresholds across Core Web Vitals.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--services-->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <h2 class="section-title center">Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3>Web Development</h3>
+                    <p>Building powerful, performant web platforms customized completely to technical and product specifications.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>App Development</h3>
+                    <p>Designing cross-platform application wrappers ensuring high-end mobile experience with local architecture native optimization.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Crafting gorgeous interaction frameworks focused completely on interactive modern experiences and clean usability tests.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🖥️</div>
+                    <h3>Responsive Design</h3>
+                    <p>Every breakpoint engineered meticulously down to strict asset layouts so rendering works on any interface context flawlessly.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔍</div>
+                    <h3>SEO</h3>
+                    <p>Programmatic engineering setups prioritizing performance architectures ensuring search index engines rank target keywords highly.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📈</div>
+                    <h3>Digital Marketing</h3>
+                    <p>Data-driven performance campaigns, dynamic funnels, and optimized conversions built to scale software pipelines rapidly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--counter section -->
+    <section class="counter-section">
+        <div class="counter-overlay"></div>
+        <div class="container counter-grid">
+            <div class="counter-item">
+                <div class="counter-number" data-target="150">0</div>
+                <div class="counter-label">Clients</div>
+            </div>
+            <div class="counter-item">
+                <div class="counter-number" data-target="320">0</div>
+                <div class="counter-label">Projects Completed</div>
+            </div>
+            <div class="counter-item">
+                <div class="counter-number" data-target="7">0</div>
+                <div class="counter-label">Years Experience</div>
+            </div>
+            <div class="counter-item">
+                <div class="counter-number" data-target="15">0</div>
+                <div class="counter-label">Awards Won</div>
+            </div>
+        </div>
+    </section>
+<!--portfolio-->
+    <section id="portfolio" class="portfolio section-padding">
+        <div class="container">
+            <h2 class="section-title center">Portfolio</h2>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">App</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-card" data-category="web">
+                    <div class="portfolio-img-placeholder">
+                        <img src="images/enterprisee.webp" alt="Enterprise Storefront">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h4>Enterprise Storefront</h4>
+                        <p>Web Platform</p>
+                        <button class="btn btn-sm">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-card" data-category="app">
+                    <div class="portfolio-img-placeholder">
+                        <img src="images/crypto.png" alt="Crypto Wallet Mobile UI">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h4>Crypto Wallet</h4>
+                        <p>App Platform</p>
+                        <button class="btn btn-sm">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-card" data-category="design">
+                    <div class="portfolio-img-placeholder">
+                        <img src="images/analytic.png" alt="SaaS Interface Analytics Dashboard">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h4>Analytics Dashboard</h4>
+                        <p>UI Design</p>
+                        <button class="btn btn-sm">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-card" data-category="web">
+                    <div class="portfolio-img-placeholder">
+                        <img src="images/messanger.jpg" alt="Real-time Chat Platform UI">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h4>Secure Messenger</h4>
+                        <p>Web Platform</p>
+                        <button class="btn btn-sm">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-card" data-category="app">
+                    <div class="portfolio-img-placeholder">
+                        <img src="images/watcher.webp" alt="Fitness Tracking System App Interface">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h4>Health Watcher</h4>
+                        <p>App Platform</p>
+                        <button class="btn btn-sm">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-card" data-category="design">
+                    <div class="portfolio-img-placeholder">
+                        <img src="images/repranding" alt="Corporate Rebrand System Identity">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h4>Corporate Rebrand</h4>
+                        <p>UI Design</p>
+                        <button class="btn btn-sm">View Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing section-padding gray-bg">
+        <div class="container">
+            <h2 class="section-title center">Pricing Plans</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Photography</h3>
+                    <div class="price">$49<span>/mo</span></div>
+                    <ul>
+                        <li>High-res Studio Assets</li>
+                        <li>Color Grading & Adjustments</li>
+                        <li>Commercial Utilization Licensing</li>
+                        <li class="disabled">Raw Engineering Source Files</li>
+                    </ul>
+                    <button class="btn">Choose Plan</button>
+                </div>
+                <div class="pricing-card premium">
+                    <div class="badge">Popular</div>
+                    <h3>Web Design</h3>
+                    <div class="price">$99<span>/mo</span></div>
+                    <ul>
+                        <li>Figma Design Asset File Ecosystems</li>
+                        <li>Prototyping Interaction Models</li>
+                        <li>Responsive Component Breakpoints</li>
+                        <li>1 Month Iteration Design Support</li>
+                    </ul>
+                    <button class="btn">Choose Plan</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Development</h3>
+                    <div class="price">$199<span>/mo</span></div>
+                    <ul>
+                        <li>Full Native Monolith Engineering</li>
+                        <li>Production-ready Clean Deployment</li>
+                        <li>API Infrastructure Interoperability</li>
+                        <li>3 Months Pipeline Architecture Support</li>
+                    </ul>
+                    <button class="btn">Choose Plan</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Marketing</h3>
+                    <div class="price">$149<span>/mo</span></div>
+                    <ul>
+                        <li>SEO Keyword Implementation Setup</li>
+                        <li>Conversion Pipeline Strategies</li>
+                        <li>Monthly Optimization Strategy</li>
+                        <li>Social Ad Interface Creative Assets</li>
+                    </ul>
+                    <button class="btn">Choose Plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq section-padding">
+        <div class="container">
+            <h2 class="section-title center">Frequently Asked Questions</h2>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <button class="faq-question">What services do you provide? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>I offer end-to-end engineering pipelines including advanced web applications, architectural performance audits, responsive layouts, hybrid app deployment systems, and meticulous user experience research frameworks.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How long does a project take? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>Timelines vary completely depending on standard scope requirements. Simple landing applications or operational interfaces can typically deploy within 2-3 weeks, while comprehensive enterprise data ecosystems can require 2-3 months.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Do you provide support? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>Absolutely. Every operational contract includes standard infrastructure protection, deployment support parameters, code updates, and ongoing continuous integration security monitoring layers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title center">Contact Me</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Have an upcoming engineering build, specialized application design, or consulting requirement? Reach out and open a line of dialogue today.</p>
+                    <div class="info-item">
+                        <span class="info-icon">📍</span>
+                        <p><strong>Address:</strong> 123 Innovation Drive, Silicon Valley, CA</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">📞</span>
+                        <p><strong>Phone:</strong> +3198764309</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">✉️</span>
+                        <p><strong>Email:</strong> zaianbshakeel@gmail.com</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="portfolioContactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Message" rows="5" required>
+                    </div>
+                    <button type="submit" class="btn block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 My Portfolio. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#" aria-label="Github">🔗 GitHub</a>
+                <a href="#" aria-label="LinkedIn">🔗 LinkedIn</a>
+                <a href="#" aria-label="Twitter">🔗 Twitter</a>
+            </div>
+        </div>
+    </footer>
+    
+    <script class="code-asset" src="script.js"></script>
+</body>
+</html>
